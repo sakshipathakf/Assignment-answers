@@ -1,9 +1,9 @@
-Cost = int(input())
-Selling = int(input())
+#enter Euros
 
-if Selling > Cost:
-  print("Profit")
-elif Selling < Cost:
-  print("Loss")
-else:
-  print("Neither")
+Rupees=int(input())
+
+Euros=(Rupees*80)
+
+print ("Rupees:")
+
+print (Euros)
